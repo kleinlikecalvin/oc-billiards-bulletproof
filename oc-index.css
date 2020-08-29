@@ -6,6 +6,10 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
+#carousel-img {
+  max-height: 500px;
+}
+
 .card {
   border: 2px solid gray;
   border-radius: 8px;
