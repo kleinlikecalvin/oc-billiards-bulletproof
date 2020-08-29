@@ -17,6 +17,15 @@ h1 {
   box-shadow: 5px 5px #212121, 10px 10px red, 15px 15px white;
   transition: 0.8s;
 }
+.card h2 {
+  font-family: "Rowdies", cursive;
+}
+.card #logo {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px;
+  margin: 1em;
+}
 .card a {
   text-decoration: none;
   text-align: center;
