@@ -13,3 +13,15 @@ body {
   box-shadow: 10px 5px 10px #ff5400;
   margin: 1em;
 }
+footer {
+  margin: 1em;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #ff5400;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
+}
