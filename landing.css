@@ -35,9 +35,9 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #ff5400;
+  color: white;
 }
 footer a:hover {
   text-decoration: none;
-  color: #008037;
+  color: #212121;
 }
