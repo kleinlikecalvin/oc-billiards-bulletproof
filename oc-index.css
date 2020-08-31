@@ -24,6 +24,10 @@ body {
 }
 .card h2 {
   font-family: "Rowdies", cursive;
+  text-align: center;
+}
+#store-info {
+  text-align: left;
 }
 footer {
   margin: 1em;
