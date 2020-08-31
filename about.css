@@ -6,3 +6,46 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
+.container {
+  margin-top: 1em;
+  border: 2px solid #212121;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0px 5px 10px #ff5400;
+}
+.container h2 {
+  color: #008037;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+.container p {
+  margin: 0.7em;
+}
+.container a {
+  text-decoration: none;
+  color: #008037;
+}
+.container a:hover {
+  color: #ff5400;
+}
+#contact {
+  background: #ffe8dd;
+}
+#contact ul {
+  margin: 1em;
+  padding: 0.3em;
+  text-align: right;
+  list-style: none;
+}
+footer {
+  margin: 4em;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #ff5400;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
+}
