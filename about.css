@@ -1,0 +1,8 @@
+body {
+  background: #f8f9fa;
+  max-width: 2560px;
+}
+#logo {
+  max-width: 150px;
+  max-height: 150px;
+}
