@@ -37,15 +37,6 @@ a:hover {
   text-decoration: none;
   color: #ff5400;
 }
-#contact {
-  background: #ffe8dd;
-}
-#contact ul {
-  margin: 1em;
-  padding: 0.3em;
-  text-align: right;
-  list-style: none;
-}
 #call-to-action {
   background: #008037;
   width: 100%;
@@ -53,6 +44,13 @@ a:hover {
   padding: 0.5em;
   color: #ffe8dd;
   font-family: "Rowdies", cursive;
+}
+#call-to-action a {
+  color: #ff5400;
+}
+#call-to-action a:hover {
+  text-decoration: none;
+  color: #ffe8dd;
 }
 footer {
   margin: 4em;
