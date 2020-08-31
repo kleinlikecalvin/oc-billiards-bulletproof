@@ -6,8 +6,12 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
+.carousel-inner {
+  border-radius: 8px;
+}
 #carousel-img {
   max-height: 500px;
+  border-radius: 8px;
 }
 
 .card {
