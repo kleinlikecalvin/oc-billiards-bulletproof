@@ -30,11 +30,11 @@ body {
 .container p {
   padding: 0.7em;
 }
-.container a {
-  text-decoration: none;
+a {
   color: #008037;
 }
-.container a:hover {
+a:hover {
+  text-decoration: none;
   color: #ff5400;
 }
 #contact {
@@ -57,12 +57,4 @@ body {
 footer {
   margin: 4em;
   text-align: center;
-}
-footer a {
-  text-decoration: none;
-  color: #ff5400;
-}
-footer a:hover {
-  text-decoration: none;
-  color: #008037;
 }
