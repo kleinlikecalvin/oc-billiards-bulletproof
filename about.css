@@ -1,6 +1,7 @@
 body {
   background: #f8f9fa;
   max-width: 2560px;
+  font-family: "Lato", sans-serif;
 }
 #logo {
   max-width: 150px;
@@ -11,15 +12,23 @@ body {
   border: 2px solid #212121;
   border-radius: 8px;
   padding: 0;
-  box-shadow: 0px 5px 10px #ff5400;
+  background: #fff;
+}
+.container h1 {
+  background: #008037;
+  margin: 0 auto;
+  padding: 0.5em;
+  color: #ffe8dd;
+  font-family: "Rowdies", cursive;
 }
 .container h2 {
+  font-family: "Rowdies", cursive;
   color: #008037;
   margin: 0 auto;
   padding: 0.3em;
 }
 .container p {
-  margin: 0.7em;
+  padding: 0.7em;
 }
 .container a {
   text-decoration: none;
@@ -36,6 +45,14 @@ body {
   padding: 0.3em;
   text-align: right;
   list-style: none;
+}
+#call-to-action {
+  background: #008037;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em;
+  color: #ffe8dd;
+  font-family: "Rowdies", cursive;
 }
 footer {
   margin: 4em;

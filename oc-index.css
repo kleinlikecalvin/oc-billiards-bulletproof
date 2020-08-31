@@ -1,6 +1,7 @@
 body {
   background: #f8f9fa;
   max-width: 2560px;
+  font-family: "Lato", sans-serif;
 }
 #logo {
   max-width: 150px;
