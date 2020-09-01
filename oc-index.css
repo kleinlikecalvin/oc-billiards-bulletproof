@@ -7,6 +7,13 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
+.container {
+  background: #fff;
+  margin-top: 1em;
+  padding: 3em;
+  border: 2px solid #212121;
+  border-radius: 8px;
+}
 .carousel-inner {
   border-radius: 8px;
 }
@@ -19,13 +26,14 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #ff5400;
+  color: #212121;
 }
 .card {
-  border: 2px solid gray;
+  border: 2px solid #212121;
   border-radius: 8px;
   text-align: center;
-  box-shadow: 10px 5px 10px #ff5400;
+  background: #ff5400;
+  box-shadow: 10px 10px 10px grey;
   margin: 1em;
   padding: 1em;
 }
