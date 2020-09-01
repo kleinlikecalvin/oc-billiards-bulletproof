@@ -22,6 +22,7 @@ body {
   font-family: "Rowdies", cursive;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  text-shadow: 2px 4px #ff5400;
 }
 .container h2 {
   font-family: "Rowdies", cursive;
