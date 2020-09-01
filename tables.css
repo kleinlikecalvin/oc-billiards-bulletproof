@@ -20,6 +20,8 @@ body {
   padding: 0.5em;
   color: #ffe8dd;
   font-family: "Rowdies", cursive;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .container h2 {
   font-family: "Rowdies", cursive;

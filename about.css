@@ -20,6 +20,8 @@ body {
   padding: 0.5em;
   color: #ffe8dd;
   font-family: "Rowdies", cursive;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .container h2 {
   font-family: "Rowdies", cursive;
@@ -44,6 +46,8 @@ a:hover {
   padding: 0.5em;
   color: #ffe8dd;
   font-family: "Rowdies", cursive;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 #call-to-action a {
   color: #ff5400;
