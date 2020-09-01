@@ -40,11 +40,11 @@ body {
   max-width: 200px;
 }
 a {
-  color: #008037;
+  color: #ff5400;
 }
 a:hover {
   text-decoration: none;
-  color: #ff5400;
+  color: #212121;
 }
 footer {
   margin: 4em;
