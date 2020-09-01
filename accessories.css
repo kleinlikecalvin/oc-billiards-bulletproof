@@ -32,11 +32,11 @@ body {
 .container p {
   padding: 0.7em;
 }
-.container img {
+#wtf img {
   margin: 1em;
   border-radius: 8px;
   padding: 0.3em;
-  max-width: 300px;
+  max-width: 200px;
 }
 a {
   color: #008037;
