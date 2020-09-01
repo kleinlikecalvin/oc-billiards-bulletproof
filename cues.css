@@ -1,0 +1,48 @@
+body {
+  background: #f8f9fa;
+  max-width: 2560px;
+  font-family: "Lato", sans-serif;
+}
+#logo {
+  max-width: 150px;
+  max-height: 150px;
+}
+.container {
+  margin-top: 1em;
+  border: 2px solid #212121;
+  border-radius: 8px;
+  padding: 0;
+  background: #fff;
+}
+.container h1 {
+  background: #008037;
+  margin: 0 auto;
+  padding: 0.5em;
+  color: #ffe8dd;
+  font-family: "Rowdies", cursive;
+}
+.container h2 {
+  font-family: "Rowdies", cursive;
+  color: #008037;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+.container p {
+  padding: 0.7em;
+}
+.container img {
+  margin: 1em;
+  border-radius: 8px;
+  padding: 0.3em;
+}
+a {
+  color: #008037;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff5400;
+}
+footer {
+  margin: 4em;
+  text-align: center;
+}
