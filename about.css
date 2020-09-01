@@ -34,28 +34,28 @@ body {
   padding: 0.7em;
 }
 a {
-  color: #008037;
+  color: #ff5400;
 }
 a:hover {
   text-decoration: none;
-  color: #ff5400;
+  color: #212121;
 }
 #call-to-action {
   background: #008037;
   width: 100%;
   margin: 0 auto;
   padding: 0.5em;
-  color: #ffe8dd;
+  color: #fff;
   font-family: "Rowdies", cursive;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 #call-to-action a {
-  color: #ff5400;
+  color: #212121;
 }
 #call-to-action a:hover {
   text-decoration: none;
-  color: #ffe8dd;
+  color: #fff;
 }
 footer {
   margin: 4em;
