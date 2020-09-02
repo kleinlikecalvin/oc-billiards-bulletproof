@@ -11,8 +11,9 @@ body {
   margin-top: 1em;
   border: 2px solid #212121;
   border-radius: 8px;
+  padding: 0;
   background: #fff;
-  padding: 0px;
+  max-width: 50em;
 }
 .container h1 {
   background: #008037;
@@ -24,26 +25,44 @@ body {
   border-top-right-radius: 5px;
   text-shadow: 2px 4px #ff5400;
 }
-.row {
-  padding-right: 1em;
-  padding-left: 1em;
-}
 .container h2 {
   font-family: "Rowdies", cursive;
   color: #008037;
   margin: 0 auto;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding: 0.3em;
 }
-
+.container h3 {
+  font-family: "Rowdies", cursive;
+  color: #ff5400;
+  margin: 0 auto;
+  padding: 0.3em;
+}
+.container p {
+  padding: 0.7em;
+}
+form {
+  padding: 0.7em;
+}
+form label {
+  font-weight: 800;
+}
 a {
-  color: #212121;
+  color: #ff5400;
 }
 a:hover {
   text-decoration: none;
   color: #212121;
 }
+.btn {
+  background: #008037 !important;
+  border: 2px solid #212121;
+}
+.btn:hover {
+  background: #ff5400 !important;
+  border: 2px solid #212121;
 
+  transition: 0.3s;
+}
 footer {
   margin: 4em;
   text-align: center;
