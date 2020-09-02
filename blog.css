@@ -41,12 +41,13 @@ body {
   margin: 0.3em;
   color: #212121;
   background: #ff5400;
-  opacity: 80%;
+  opacity: 100%;
 }
 #entry:hover {
   text-decoration: none;
   color: #fff;
-  opacity: 100%;
+
+  opacity: 80%;
   transition: 0.3s;
 }
 a {
