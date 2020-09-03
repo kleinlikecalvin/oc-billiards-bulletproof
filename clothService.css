@@ -18,7 +18,7 @@ body {
   background: #008037;
   margin: 0 auto;
   padding: 0.5em;
-  color: #ffe8dd;
+  color: #fff;
   font-family: "Rowdies", cursive;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -52,24 +52,14 @@ a:hover {
   text-decoration: none;
   color: #212121;
 }
-#call-to-action {
-  background: #008037;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0.5em;
-  color: #fff;
-  font-family: "Rowdies", cursive;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-#call-to-action a {
-  color: #212121;
-}
-#call-to-action a:hover {
-  text-decoration: none;
-  color: #fff;
-}
 footer {
   margin: 4em;
   text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
 }

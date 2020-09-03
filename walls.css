@@ -18,7 +18,7 @@ body {
   background: #008037;
   margin: 0 auto;
   padding: 0.5em;
-  color: #ffe8dd;
+  color: #fff;
   font-family: "Rowdies", cursive;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -39,14 +39,14 @@ body {
   padding: 0.3em;
   max-width: 200px;
 }
-a {
-  color: #ff5400;
-}
-a:hover {
-  text-decoration: none;
-  color: #212121;
-}
 footer {
   margin: 4em;
   text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
 }
