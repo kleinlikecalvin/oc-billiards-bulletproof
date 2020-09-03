@@ -1,0 +1,86 @@
+body {
+  background: #f8f9fa;
+  max-width: 2560px;
+  font-family: "Lato", sans-serif;
+}
+#logo {
+  max-width: 150px;
+  max-height: 150px;
+}
+.container {
+  background: #fff;
+  margin-top: 1em;
+  padding: 3em;
+  border: 2px solid #212121;
+  border-radius: 8px;
+}
+.carousel-inner {
+  border-radius: 8px;
+}
+#carousel-img {
+  max-height: 500px;
+  border-radius: 8px;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #212121;
+}
+.card {
+  border: 2px solid #212121;
+  border-radius: 8px;
+  text-align: center;
+  background: #ff5400;
+  box-shadow: 10px 10px 10px grey;
+  margin: 1em;
+  padding: 1em;
+}
+.card h2 {
+  font-family: "Rowdies", cursive;
+  text-align: center;
+}
+#store-info {
+  text-align: left;
+}
+#contact-map {
+  background: #008037;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em;
+  color: #212121;
+  border-radius: 8px;
+  border: 2px solid #212121;
+  font-size: 20px;
+}
+#contact-map h3 {
+  font-family: "Rowdies", cursive;
+}
+.fas {
+  font-size: 20px;
+  padding: 0.5em;
+}
+#map {
+  border-radius: 8px;
+  text-align: center;
+}
+#contact-map a {
+  color: #fff;
+}
+#contact-map a:hover {
+  transition: 0.3s;
+  text-decoration: none;
+  color: #212121;
+}
+footer {
+  margin: 4em;
+  text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
+}

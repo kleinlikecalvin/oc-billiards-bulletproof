@@ -1,0 +1,54 @@
+body {
+  background: red;
+  color: #212121;
+  font-family: "Lato", sans-serif;
+  margin: 10%;
+}
+h1 {
+  font-family: "Rowdies", cursive;
+  text-align: center;
+  font-size: 60px;
+}
+.card {
+  border: 2px solid #212121;
+  border-radius: 10px;
+  margin: 8%;
+  background: none;
+  box-shadow: 5px 5px #212121, 10px 10px red, 15px 15px white;
+  transition: 0.8s;
+}
+.card h2 {
+  font-family: "Rowdies", cursive;
+  transition: 0.8s;
+}
+.card #logo {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px;
+  margin: 1em;
+  transition: 0.3s;
+}
+.card a {
+  text-decoration: none;
+  text-align: center;
+  color: #212121;
+}
+.card:hover {
+  border: 2px solid white;
+  box-shadow: 5px 5px white, 10px 10px red, 15px 15px #212121;
+}
+.card a:hover {
+  color: white;
+}
+footer {
+  margin: 4em;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #212121;
+}

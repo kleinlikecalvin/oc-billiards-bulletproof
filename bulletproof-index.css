@@ -1,0 +1,12 @@
+footer {
+  margin: 1em;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #ff5400;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
+}
