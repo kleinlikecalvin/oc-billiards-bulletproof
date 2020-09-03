@@ -22,7 +22,7 @@ body {
   border-radius: 8px;
 }
 a {
-  color: #008037;
+  color: #fff;
 }
 a:hover {
   text-decoration: none;
@@ -44,7 +44,21 @@ a:hover {
 #store-info {
   text-align: left;
 }
+#contact-map {
+  background: #008037;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0 auto;
+  padding: -3em;
+}
 footer {
   margin: 4em;
   text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #008037;
 }
