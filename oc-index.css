@@ -21,6 +21,13 @@ body {
   max-height: 500px;
   border-radius: 8px;
 }
+.carousel-caption {
+  background: #fff;
+  font-family: "Rowdies", cursive;
+  text-align: center;
+  color: #212121;
+  opacity: 60%;
+}
 a {
   color: #fff;
 }
