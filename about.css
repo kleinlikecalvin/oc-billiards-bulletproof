@@ -7,6 +7,10 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
+#search-icon {
+  font-size: 16px !important;
+  padding: 0.3em !important;
+}
 .container {
   background: #fff;
   margin-top: 1em;
