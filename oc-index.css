@@ -39,12 +39,51 @@ a:hover {
   margin: 1em;
   padding: 1em;
 }
-.card h2 {
+h2 {
   font-family: "Rowdies", cursive;
   text-align: center;
 }
 #store-info {
   text-align: left;
+}
+.reviews {
+  margin: 1em;
+  padding: 0.7em;
+  border: 2px solid #212121;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px grey;
+}
+.reviews p {
+  padding: 0.7em;
+  padding-bottom: 0;
+}
+.reviews #stars {
+  max-width: 100px;
+  border-radius: 2px;
+}
+.reviews a {
+  color: #212121;
+}
+.reviews a:hover {
+  transition: 0.3s;
+  color: #ff5400;
+}
+#yelp-review img {
+  border-radius: 8px;
+  max-width: 50px;
+  margin: 0 auto;
+  padding-right: 0.3em;
+}
+
+#google-review img {
+  border-radius: 50%;
+  max-width: 50px;
+  margin: 0 auto;
+  padding-right: 0.3em;
+}
+
+#google-review #logo {
+  max-width: 30px;
 }
 #contact-map {
   background: #008037;
@@ -56,9 +95,7 @@ a:hover {
   border: 2px solid #212121;
   font-size: 20px;
 }
-#contact-map h3 {
-  font-family: "Rowdies", cursive;
-}
+
 .fas {
   font-size: 20px;
   padding: 0.5em;
