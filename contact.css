@@ -53,11 +53,11 @@ a:hover {
   text-decoration: none;
   color: #212121;
 }
-.btn {
+#form-button {
   background: #008037 !important;
   border: 2px solid #212121;
 }
-.btn:hover {
+#form-button:hover {
   background: #ff5400 !important;
   border: 2px solid #212121;
 
