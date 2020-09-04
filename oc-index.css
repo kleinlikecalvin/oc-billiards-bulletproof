@@ -27,6 +27,13 @@ body {
   border-radius: 8px;
   object-fit: cover;
 }
+.carousel-caption {
+  background: #fff;
+  font-family: "Rowdies", cursive;
+  text-align: center;
+  color: #212121;
+  opacity: 60%;
+}
 a {
   color: #fff;
 }
