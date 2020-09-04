@@ -28,11 +28,15 @@ body {
   object-fit: cover;
 }
 .carousel-caption {
-  background: #fff;
+  top: 10%;
+  bottom: auto;
+  border-radius: 8px;
+  background: #008037;
   font-family: "Rowdies", cursive;
   text-align: center;
-  color: #212121;
-  opacity: 60%;
+  color: #fff;
+  opacity: 80%;
+  padding: 0;
 }
 a {
   color: #fff;
