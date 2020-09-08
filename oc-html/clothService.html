@@ -14,6 +14,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../oc-css/products-services.css" />
+    <link rel="stylesheet" href="../oc-css/lightbox.min.css" />
     <title>Cloth Repair</title>
   </head>
 
@@ -207,8 +208,25 @@
       <div class="row">
         <div class="col">
           <h2 id="swatches">Simonis Color Samples</h2>
-          <img src="../oc-imgs/simonis1.jpg" alt="simonis swatches" />
-          <img src="../oc-imgs/Champ-Color-Chart.png" alt="simonis swatches" />
+          <div class="gallery">
+            <a
+              href="../oc-imgs/simonis1.jpg"
+              data-lightbox="gallery"
+              id="gallery"
+            >
+              <img src="../oc-imgs/simonis1.jpg" alt="simonis swatches" />
+            </a>
+            <a
+              href="../oc-imgs/Champ-Color-Chart.png"
+              data-lightbox="gallery"
+              id="gallery"
+            >
+              <img
+                src="../oc-imgs/Champ-Color-Chart.png"
+                alt="simonis swatches"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -221,6 +239,7 @@
         >Nikk Klein</a
       >
     </footer>
+    <script src="../oc-js/lightbox-plus-jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/edc2ca84e9.js"
       crossorigin="anonymous"
