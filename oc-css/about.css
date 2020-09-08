@@ -7,7 +7,49 @@ body {
   max-width: 150px;
   max-height: 150px;
 }
-#search-icon {
+.search {
+  max-width: 254px;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.search:focus-within {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.search-results-container {
+  max-height: 250px;
+  overflow-y: auto;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: visibility 0.1s, opacity 0.1s;
+}
+.search-results-container--visible {
+  visibility: visible;
+  opacity: 1;
+}
+.search-result {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  padding: 6px;
+  font-size-adjust: 0.8em;
+  cursor: pointer;
+}
+.search-result:hover {
+  background: #eeeeee;
+}
+.search-result:not(:last-of-type) {
+  border-bottom: 1px solid #eeeeee;
+}
+.search-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.search-details {
+  line-height: 1.5;
+  margin: 8px 0;
+}
+.search-icon {
   font-size: 16px !important;
   padding: 0.3em !important;
 }
