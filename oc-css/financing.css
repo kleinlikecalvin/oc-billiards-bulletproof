@@ -46,9 +46,11 @@ body {
   padding: 0.3em;
   max-width: 300px;
   justify-items: center;
+  border: 1px solid #008037;
 }
 .container img:hover {
-  background: #212121;
+  border: 1px solid #ff5400;
+  transition: 0.3s;
 }
 a {
   color: #ff5400;

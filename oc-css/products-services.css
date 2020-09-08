@@ -48,7 +48,7 @@ body {
   padding: 0.3em;
   max-width: 200px;
 }
-.container img:hover {
+.container #gallery:hover {
   transition: 1s;
   transform: scale(1.1);
 }
