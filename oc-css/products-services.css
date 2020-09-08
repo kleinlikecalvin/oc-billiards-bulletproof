@@ -48,6 +48,10 @@ body {
   padding: 0.3em;
   max-width: 200px;
 }
+.container img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
 .container a {
   color: #ff5400;
 }
