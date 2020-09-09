@@ -141,48 +141,56 @@
         Sunday 11AM to 3PM
       </p>
       <h2>Send us an email</h2>
-      <form method="POST" action="contact-form-handler.php">
+      <form
+        enctype="text/plain"
+        method="POST"
+        action="mailto:info@ocbilliards.com"
+      >
         <div class="form-group">
-          <label for="exampleFormControlInput1">What is your name?</label>
+          <label for="name-input">What is your name?</label>
           <input
             type="name"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="name-input"
             placeholder="John Doe"
+            name="Name"
             required
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
+          <label for="email-input">Email address</label>
           <input
             type="email"
+            name="Email"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="email-input"
             placeholder="name@example.com"
             required
           />
         </div>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Website</label>
+          <label for="website-input">Website</label>
           <input
             type="website"
             class="form-control"
-            id="exampleFormControlInput1"
+            id="website-input"
+            name="Website"
             placeholder="www.ocbilliards.com"
           />
         </div>
 
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Your Message</label>
+          <label for="message-input">Your Message</label>
           <textarea
+            name="Message"
             class="form-control"
-            id="exampleFormControlTextarea1"
+            id="message-input"
             rows="4"
             required
           ></textarea>
         </div>
-        <button type="button" class="btn btn-success" id="form-button">
-          Success
+        <button type="submit" class="btn btn-success" id="form-button">
+          Send Message
         </button>
       </form>
     </div>
