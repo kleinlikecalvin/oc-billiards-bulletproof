@@ -34,6 +34,12 @@ body {
   margin: 0 auto;
   padding: 0.3em;
 }
+.container img {
+  display: flex;
+  max-width: 300px;
+  margin: 1em;
+  border-radius: 8px;
+}
 .container p {
   padding: 0.7em;
 }
