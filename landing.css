@@ -1,6 +1,6 @@
 body {
-  background: red;
-  color: #212121;
+  background: #212121;
+  color: #fff;
   font-family: "Lato", sans-serif;
   margin: 10%;
 }
@@ -10,11 +10,11 @@ h1 {
   font-size: 60px;
 }
 .card {
-  border: 2px solid #212121;
+  border: 2px solid red;
   border-radius: 10px;
   margin: 8%;
   background: none;
-  box-shadow: 5px 5px #212121, 10px 10px red, 15px 15px white;
+  box-shadow: 5px 5px red, 10px 10px #212121, 15px 15px #fff;
   transition: 0.8s;
 }
 .card h2 {
@@ -31,11 +31,11 @@ h1 {
 .card a {
   text-decoration: none;
   text-align: center;
-  color: #212121;
+  color: #fff;
 }
 .card:hover {
   border: 2px solid white;
-  box-shadow: 5px 5px white, 10px 10px red, 15px 15px #212121;
+  box-shadow: 5px 5px white, 10px 10px #212121, 15px 15px red;
 }
 .card a:hover {
   color: white;
