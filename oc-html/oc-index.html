@@ -109,16 +109,29 @@
             <a class="nav-link" href="../oc-html/contact.html">Contact</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form
+          class="form-inline my-2 my-lg-0 search search-input-container"
+          id="searchForm"
+          method="get"
+          action="http://www.ocbilliards.com"
+        >
           <input
-            class="form-control mr-sm-2"
+            class="form-control mr-sm-2 search search-input"
             type="search"
+            name="search"
             placeholder="Search"
             aria-label="Search"
+            spellcheck="false"
           />
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            <i class="fas fa-search" id="search-icon"></i>
+            <i class="fas fa-search search search-icon"></i>
           </button>
+          <div class="search search-results-container">
+            <a href="#" class="search search-result">
+              <div class="search search-title">Some shit</div>
+              <p class="search search-details">ipsum dipsum hipsum bleh</p>
+            </a>
+          </div>
         </form>
       </div>
     </nav>
@@ -396,6 +409,8 @@
         >Nikk Klein</a
       >
     </footer>
+    <script src="../oc-js/search.js" type="text/javascript"></script>
+
     <script
       src="https://kit.fontawesome.com/edc2ca84e9.js"
       crossorigin="anonymous"
