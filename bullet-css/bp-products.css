@@ -1,0 +1,17 @@
+body {
+  background: #fff;
+  max-width: 2560px;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+}
