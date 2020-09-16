@@ -10,10 +10,15 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../bullet-css/bp-index.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../landing.html">Bulletproof Enterprises</a>
+      <a class="navbar-brand" href="../landing.html">BULLETPROOF BREAK TIPS</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,40 +61,60 @@
         </form>
       </div>
     </nav>
-    <div class="container">
-      <div class="promo-vid">
+    <div class="container-fluid">
+      <div class="row promo-vid">
         <iframe
           src="https://www.youtube-nocookie.com/embed/EuRHhayuIQE"
           frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allow="autoplay; encrypted-media; gyroscope"
           allowfullscreen
         ></iframe>
       </div>
-      <div class="landing-img">
-        <h1>Bulletproof Breaktips</h1>
-        <h2>Clearly Superior</h2>
-        <img
-          src="../bullet-imgs/pileOfTips.jpg"
-          alt="Bulletproof tips on pool table with balls and a cue"
-        />
+      <div class="row landing-caption-container no-gutters">
+        <div class="col landing-caption">
+          <h1>BULLETPROOF BREAK TIPS</h1>
+          <h2>CLEARLY SUPERIOR</h2>
+        </div>
       </div>
       <div class="row">
-        <div class="col">
-          <img src="../bullet-imgs/tipOnCue.jpg" alt="tip and ferule on cue" />
+        <div class="col-lg product-img-container no-gutters">
+          <img
+            src="../bullet-imgs/tipOnCue.jpg"
+            class="product-img"
+            alt="tip and ferule on cue"
+          />
         </div>
-        <div class="col">
+        <div class="col-lg product-info-container no-gutters">
           <h1>The difference is clear...</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            laudantium expedita in tempora dolores sed eum neque nostrum harum
-            quae aut laboriosam distinctio vero dolorum eaque nam, maiores
-            incidunt odit!
-          </p>
+          <ul>
+            <li>
+              Bulletproof tips are <strong>more powerful</strong> than Phenolic!
+            </li>
+            <li>Jump with spin and draw.</li>
+            <li>
+              They shape, scuff, hold chalk and
+              <strong>grip like leather</strong>!
+            </li>
+            <li>And, clearly, they look amazing!</li>
+          </ul>
           <a href="../bullet-html/products.html"><button>BUY NOW</button></a>
         </div>
       </div>
       <div class="row">
-        <h2>Contact Info</h2>
+        <div class="col-lg contact-info-container">
+          <h1>Contact Info</h1>
+          <div class="address">
+            6186 Garden Grove Blvd, Westminster, CA 92683
+          </div>
+          <div class="phone-email">
+            <a href="tel:+1714-379-1850"
+              ><i class="fas fa-phone-square-alt"></i
+            ></a>
+            <a href="mailto:bulletprooftips@gmail.com"
+              ><i class="fas fa-envelope-square"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </div>
     <footer>
@@ -98,6 +123,10 @@
         >Nikk Klein</a
       >
     </footer>
+    <script
+      src="https://kit.fontawesome.com/edc2ca84e9.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
