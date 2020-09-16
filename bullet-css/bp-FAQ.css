@@ -1,0 +1,82 @@
+body {
+  background: #fff;
+  max-width: 2560px;
+  font-family: "Roboto", sans-serif;
+  margin: 1em;
+}
+h1 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: bold;
+  text-align: center;
+  padding: 2em;
+}
+.navbar {
+  background: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+dl.faq button {
+  margin: 1em;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 110%;
+  border: thin solid transparent;
+  background-color: transparent;
+}
+
+dl dd {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+}
+
+dl.faq .desc {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 110%;
+  display: none;
+  background-color: #fffedb;
+}
+
+dl.faq button:hover,
+dl.faq button:focus {
+  background-color: #eee;
+}
+
+dl.faq button:focus {
+  border-color: #630;
+}
+
+dl.faq button:hover {
+  text-decoration: underline;
+}
+
+dl.faq button:active {
+  background-color: #bbb;
+}
+
+dl.faq button[aria-expanded="false"]::before {
+  content: url("../images/right-arrow-brown.png");
+  padding-right: 0.35em;
+}
+
+dl.faq button[aria-expanded="true"]::before {
+  content: url("../images/down-arrow-brown.png");
+  padding-right: 0.35em;
+}
+footer {
+  text-align: center;
+  margin: 5em;
+  margin-top: 0;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
