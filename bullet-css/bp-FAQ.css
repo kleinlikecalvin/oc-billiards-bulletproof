@@ -19,48 +19,48 @@ h1 {
   font-weight: bold;
 }
 
-dl.faq button {
+.faq button {
   margin: 1em;
   padding: 1em;
   font-weight: bold;
   font-size: 110%;
   border-radius: 3px;
+  text-align: left;
   border: none;
   background-color: transparent;
 }
 
-dl dd {
+.faq .answer-container {
   margin: 0;
   padding: 0;
-  margin-left: 1.5em;
+  margin-left: 3em;
 }
 
-dl.faq .answer {
+.faq .answer {
   margin: 0;
   padding: 0.5em;
   font-size: 110%;
   border-radius: 3px;
-
   display: none;
   background-color: #fcdfdf;
 }
 
-dl.faq button:hover,
-dl.faq button:focus {
+.faq button:hover,
+.faq button:focus {
   background-color: rgb(199, 199, 199);
 }
-dl.faq button:active {
+.faq button:active {
   background-color: rgb(199, 199, 199);
 }
 
-dl.faq button[aria-expanded="false"]::before {
+.faq button[aria-expanded="false"]::before {
   font-family: "Font Awesome 5 Free";
   content: "\f059";
   color: red;
   padding-right: 0.35em;
 }
 
-dl.faq button[aria-expanded="true"]::before {
+.faq button[aria-expanded="true"]::before {
   font-family: "Font Awesome 5 Free";
   content: "\f00c";
   color: red;
@@ -69,7 +69,6 @@ dl.faq button[aria-expanded="true"]::before {
 footer {
   text-align: center;
   margin: 5em;
-  margin-top: 0;
 }
 footer a {
   color: #212121;
