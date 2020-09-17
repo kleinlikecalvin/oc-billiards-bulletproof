@@ -1,0 +1,82 @@
+body {
+  background: #fff;
+  max-width: 2560px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+h1 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: bold;
+  text-align: center;
+  margin: 3em;
+}
+#greeting {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+.col a {
+  color: red;
+}
+.col a:hover {
+  text-decoration: none;
+  color: grey;
+}
+#contact-form {
+  padding: 3em;
+  margin: 20em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 2px;
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+}
+.info-container col {
+  border-right: 4px solid red;
+}
+#contact-form h2 {
+  text-align: center;
+}
+#contact-form button {
+  width: 50%;
+  padding: 1em;
+  border: none;
+  background: red;
+  color: #fff;
+  border-radius: 4px;
+  border-right: 1em solid #212121;
+  box-shadow: 0px 10px 10px grey;
+  transition: 0.4s;
+  text-align: left;
+}
+#contact-form button:hover {
+  padding: 1em;
+  border: none;
+  background: #212121;
+  color: #fff;
+  border-radius: 2px;
+  border-right: 1em solid red;
+  box-shadow: 0px 10px 10px grey;
+  cursor: pointer;
+  transition: 0.4s;
+}
+footer {
+  margin: 5em;
+  text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
