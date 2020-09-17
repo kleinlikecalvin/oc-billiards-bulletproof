@@ -24,7 +24,8 @@ dl.faq button {
   padding: 1em;
   font-weight: bold;
   font-size: 110%;
-  border: thin solid transparent;
+  border-radius: 3px;
+  border: none;
   background-color: transparent;
 }
 
@@ -34,38 +35,35 @@ dl dd {
   margin-left: 1.5em;
 }
 
-dl.faq .desc {
+dl.faq .answer {
   margin: 0;
   padding: 0.5em;
   font-size: 110%;
+  border-radius: 3px;
+
   display: none;
-  background-color: #fffedb;
+  background-color: #fcdfdf;
 }
 
 dl.faq button:hover,
 dl.faq button:focus {
-  background-color: #eee;
+  background-color: rgb(199, 199, 199);
 }
-
-dl.faq button:focus {
-  border-color: #630;
-}
-
-dl.faq button:hover {
-  text-decoration: underline;
-}
-
 dl.faq button:active {
-  background-color: #bbb;
+  background-color: rgb(199, 199, 199);
 }
 
 dl.faq button[aria-expanded="false"]::before {
-  content: url("../images/right-arrow-brown.png");
+  font-family: "Font Awesome 5 Free";
+  content: "\f059";
+  color: red;
   padding-right: 0.35em;
 }
 
 dl.faq button[aria-expanded="true"]::before {
-  content: url("../images/down-arrow-brown.png");
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  color: red;
   padding-right: 0.35em;
 }
 footer {
