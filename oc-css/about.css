@@ -26,6 +26,12 @@ body {
     border: none;
     border-radius: unset !important;
   }
+  .container h1 {
+    border-radius: unset !important;
+  }
+  #call-to-action {
+    border-radius: unset !important;
+  }
 }
 .container h1 {
   background: #008037;
