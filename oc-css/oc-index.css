@@ -58,6 +58,9 @@ body {
     opacity: 80%;
     padding: 0;
   }
+  #map {
+    padding: 1em;
+  }
 }
 a {
   color: #fff;
@@ -123,7 +126,7 @@ h2 {
   padding: 0;
   margin: 0 auto;
 }
-#contact-map {
+#contact-map-container {
   background: #008037;
   width: 100%;
   margin: 0 auto;
@@ -142,10 +145,10 @@ h2 {
   border-radius: 8px;
   text-align: center;
 }
-#contact-map a {
+#contact-map-container a {
   color: #fff;
 }
-#contact-map a:hover {
+#contact-map-container a:hover {
   transition: 0.3s;
   text-decoration: none;
   color: #212121;
