@@ -58,6 +58,9 @@ body {
     opacity: 80%;
     padding: 0;
   }
+  #map {
+    width: 6em;
+  }
 }
 a {
   color: #fff;
