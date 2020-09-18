@@ -2,7 +2,6 @@ body {
   background: #fff;
   max-width: 2560px;
   font-family: "Roboto", sans-serif;
-  margin: 1em;
 }
 h1 {
   font-family: "Work Sans", sans-serif !important;
@@ -81,6 +80,13 @@ h1 {
     margin: 0 auto;
     width: 24em;
     height: 20em;
+  }
+  .faq button {
+    margin: unset !important;
+  }
+  .answer-container iframe {
+    width: 30em;
+    height: 15em;
   }
 }
 footer {
