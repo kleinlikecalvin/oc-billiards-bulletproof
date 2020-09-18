@@ -161,6 +161,9 @@ footer a:hover {
   .landing-caption h2 {
     color: #212121;
   }
+  .landing-caption h1 {
+    font-size: 20em;
+  }
   .product-img-container {
     margin-left: 1em;
     margin-bottom: 0;
@@ -233,6 +236,6 @@ footer a:hover {
     border-radius: 2px;
   }
   .contact-info-container i {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
