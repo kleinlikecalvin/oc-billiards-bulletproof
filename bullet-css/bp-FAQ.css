@@ -42,15 +42,18 @@ h1 {
   font-size: 110%;
   border-radius: 3px;
   display: none;
-  background-color: #fcdfdf;
+  background-image: linear-gradient(
+    to right,
+    #ffe3e3 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border-right: 4px solid red;
+  border-left: 4px solid red;
 }
 
 .faq button:hover,
 .faq button:focus {
-  background-color: rgb(199, 199, 199);
-}
-.faq button:active {
-  background-color: rgb(199, 199, 199);
+  border-bottom: 4px solid red;
 }
 
 .faq button[aria-expanded="false"]::before {
