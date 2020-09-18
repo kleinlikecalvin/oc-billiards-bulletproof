@@ -97,9 +97,6 @@ body {
   #call-to-action {
     border-radius: unset !important;
   }
-  footer {
-    background: #fff;
-  }
 }
 footer {
   margin: 4em;
