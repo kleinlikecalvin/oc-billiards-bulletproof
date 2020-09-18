@@ -18,6 +18,15 @@ body {
   border: 2px solid #212121;
   border-radius: 8px;
 }
+@media (max-width: 576px) and (max-width: 767.98px) {
+  .container {
+    background: #fff;
+    margin-top: 1em;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+  }
+}
 .container h1 {
   background: #008037;
   margin: 0 auto;
