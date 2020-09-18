@@ -50,7 +50,12 @@ h1 {
   border-right: 4px solid red;
   border-left: 4px solid red;
 }
-
+.answer-container iframe {
+  display: block;
+  margin: 0 auto;
+  width: 40em;
+  height: 25em;
+}
 .faq button:hover,
 .faq button:focus {
   border-bottom: 4px solid red;
@@ -68,6 +73,15 @@ h1 {
   content: "\f00c";
   color: red;
   padding-right: 0.35em;
+}
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+  .answer-container iframe {
+    display: block;
+    margin: 0 auto;
+    width: 24em;
+    height: 20em;
+  }
 }
 footer {
   text-align: center;
