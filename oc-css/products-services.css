@@ -82,7 +82,7 @@ body {
 }
 @media (max-width: 576px) and (max-width: 767.98px) {
   .container {
-    background: #fff;
+    background: #f8f9fa;
     margin-top: 1em;
     padding: 0;
     border: none;
