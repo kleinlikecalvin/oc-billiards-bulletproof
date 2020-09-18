@@ -1,0 +1,213 @@
+body {
+  background: #fff;
+  max-width: 2560px;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+h1 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: bold;
+  text-align: center;
+  margin: 4em;
+}
+.greeting-container {
+  margin: 10em;
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5em;
+  border-left: 4px solid red;
+  border-right: 4px solid red;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+.info-container {
+  margin: 10em;
+  margin-top: 0;
+  border: 4px solid red;
+}
+.info {
+  padding: 3em;
+}
+#store-hours {
+  line-height: 0.5em;
+}
+.map {
+  text-align: center;
+}
+#map {
+  height: 90%;
+  margin-top: 1.5em;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px grey;
+}
+.col a {
+  color: red;
+}
+.col a:hover {
+  text-decoration: none;
+  color: grey;
+}
+#contact-form {
+  padding: 3em;
+  margin: 20em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 2px;
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+}
+#contact-form h2 {
+  text-align: center;
+}
+#contact-form button {
+  width: 50%;
+  padding: 1em;
+  border: none;
+  background: red;
+  color: #fff;
+  border-radius: 2px;
+  border-right: 1em solid #212121;
+  box-shadow: 0px 10px 10px grey;
+  transition: 0.4s;
+  text-align: left;
+}
+#contact-form button:hover {
+  padding: 1em;
+  border: none;
+  background: #212121;
+  color: #fff;
+  border-radius: 2px;
+  border-right: 1em solid red;
+  box-shadow: 0px 10px 10px grey;
+  cursor: pointer;
+  transition: 0.4s;
+}
+@media (max-width: 576px) and (max-width: 767.98px) {
+  .body {
+    margin: 1em;
+  }
+
+  h1 {
+    margin: 0;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+  .greeting-container {
+    margin: 2em;
+    margin-top: 0;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    border: none;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+  }
+  h3 {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .info-container {
+    margin: 1em;
+    margin-top: 3em;
+    border: none;
+  }
+  .info {
+    padding: 3em;
+  }
+  .phone {
+    padding-top: 1em;
+  }
+  .hours {
+    padding-top: 1em;
+  }
+  #store-hours {
+    list-style: none;
+  }
+  .map {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 4em;
+  }
+  #map {
+    height: 90%;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px grey;
+  }
+  .col a {
+    color: red;
+  }
+  .col a:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  #contact-form {
+    padding: 2em;
+    margin: 1em;
+    margin-top: 7em;
+    margin-bottom: 4em;
+    border-radius: 2px;
+    border: none;
+    border-top: 4px solid red;
+    border-bottom: 4px solid red;
+  }
+  .info-container col {
+    border-right: 4px solid red;
+  }
+  #contact-form h2 {
+    text-align: center;
+  }
+  #contact-form button {
+    width: 50%;
+    padding: 1em;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 2px;
+    border-right: 1em solid #212121;
+    box-shadow: 0px 10px 10px grey;
+    transition: 0.4s;
+    text-align: left;
+  }
+  #contact-form button:hover {
+    padding: 1em;
+    border: none;
+    background: #212121;
+    color: #fff;
+    border-radius: 2px;
+    border-right: 1em solid red;
+    box-shadow: 0px 10px 10px grey;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+}
+
+footer {
+  margin: 5em;
+  text-align: center;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
