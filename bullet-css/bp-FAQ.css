@@ -82,10 +82,10 @@ h1 {
     height: 20em;
   }
   .faq button {
-    margin: unset !important;
+    margin-left: 0;
   }
   .answer-container iframe {
-    width: 30em;
+    width: 20em;
     height: 15em;
   }
 }
