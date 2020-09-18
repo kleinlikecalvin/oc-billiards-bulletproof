@@ -12,7 +12,7 @@ body {
   padding: 0.3em !important;
 }
 .container {
-  background: #fff;
+  background: #f8f9fa;
   margin-top: 1em;
   padding: 3em;
   border: 2px solid #212121;
@@ -139,6 +139,8 @@ h2 {
   padding: 0.5em;
 }
 #map {
+  display: block;
+  margin: 0 auto;
   border-radius: 8px;
   text-align: center;
 }
