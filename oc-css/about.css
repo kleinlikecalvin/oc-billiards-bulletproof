@@ -32,9 +32,6 @@ body {
   #call-to-action {
     border-radius: unset !important;
   }
-  footer {
-    background: #fff;
-  }
 }
 .container h1 {
   background: #008037;
