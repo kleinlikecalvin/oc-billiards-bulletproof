@@ -1,0 +1,96 @@
+body {
+  background: #fff;
+  max-width: 2560px;
+  font-family: "Roboto", sans-serif;
+  margin: 1em;
+}
+h1 {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: bold;
+  text-align: center;
+  padding: 2em;
+}
+.navbar {
+  background: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  line-height: 24px;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+.faq button {
+  margin: 1em;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 110%;
+  border-radius: 3px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+}
+
+.faq .answer-container {
+  margin: 0;
+  padding: 0;
+  margin-left: 3em;
+}
+
+.faq .answer {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 110%;
+  border-radius: 3px;
+  display: none;
+  background-image: linear-gradient(
+    to right,
+    #ffe3e3 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border-right: 4px solid red;
+  border-left: 4px solid red;
+}
+.answer-container iframe {
+  display: block;
+  margin: 0 auto;
+  width: 40em;
+  height: 25em;
+}
+.faq button:hover,
+.faq button:focus {
+  border-bottom: 4px solid red;
+}
+
+.faq button[aria-expanded="false"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f059";
+  color: red;
+  padding-right: 0.35em;
+}
+
+.faq button[aria-expanded="true"]::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  color: red;
+  padding-right: 0.35em;
+}
+
+@media (max-width: 576px) and (max-width: 767.98px) {
+  .answer-container iframe {
+    display: block;
+    margin: 0 auto;
+    width: 24em;
+    height: 20em;
+  }
+}
+footer {
+  text-align: center;
+  margin: 5em;
+}
+footer a {
+  color: #212121;
+}
+footer a:hover {
+  text-decoration: none;
+  color: red;
+}
