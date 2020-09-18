@@ -84,6 +84,10 @@ h1 {
   .faq button {
     margin-left: 0;
   }
+  .faq .answer {
+    margin-right: 1em;
+  }
+
   .answer-container iframe {
     width: 20em;
     height: 15em;
