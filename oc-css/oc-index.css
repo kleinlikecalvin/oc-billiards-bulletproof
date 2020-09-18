@@ -38,6 +38,24 @@ body {
   opacity: 80%;
   padding: 0;
 }
+@media (max-width: 576px) and (max-width: 767.98px) {
+  #carousel-img {
+    height: 4em;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    top: 10%;
+    bottom: auto;
+    border-radius: 8px;
+    background: #008037;
+    font-family: "Rowdies", cursive;
+    text-align: center;
+    color: #fff;
+    opacity: 80%;
+    padding: 0;
+  }
+}
 a {
   color: #fff;
 }
