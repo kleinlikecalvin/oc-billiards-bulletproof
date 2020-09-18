@@ -82,7 +82,7 @@ body {
 }
 @media (max-width: 576px) and (max-width: 767.98px) {
   .container {
-    background: #f8f9fa;
+    background: #fff;
     margin-top: 1em;
     padding: 0;
     border: none;
@@ -96,6 +96,9 @@ body {
   }
   #call-to-action {
     border-radius: unset !important;
+  }
+  footer {
+    background: #fff;
   }
 }
 footer {

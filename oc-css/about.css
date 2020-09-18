@@ -19,9 +19,6 @@ body {
   border-radius: 8px;
 }
 @media (max-width: 576px) and (max-width: 767.98px) {
-  .navbar {
-    background: #fff !important;
-  }
   .container {
     background: #fff;
     margin-top: 1em;
@@ -34,6 +31,9 @@ body {
   }
   #call-to-action {
     border-radius: unset !important;
+  }
+  footer {
+    background: #fff;
   }
 }
 .container h1 {
