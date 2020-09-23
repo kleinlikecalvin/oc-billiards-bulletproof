@@ -75,14 +75,3 @@ a:hover {
     border-radius: unset !important;
   }
 }
-footer {
-  margin: 4em;
-  text-align: center;
-}
-footer a {
-  color: #212121;
-}
-footer a:hover {
-  text-decoration: none;
-  color: #008037;
-}
