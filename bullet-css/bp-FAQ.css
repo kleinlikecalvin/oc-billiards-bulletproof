@@ -93,14 +93,3 @@ h1 {
     height: 15em;
   }
 }
-footer {
-  text-align: center;
-  margin: 5em;
-}
-footer a {
-  color: #212121;
-}
-footer a:hover {
-  text-decoration: none;
-  color: red;
-}

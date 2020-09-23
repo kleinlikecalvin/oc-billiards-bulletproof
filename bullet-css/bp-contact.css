@@ -199,15 +199,3 @@ h3 {
     transition: 0.4s;
   }
 }
-
-footer {
-  margin: 5em;
-  text-align: center;
-}
-footer a {
-  color: #212121;
-}
-footer a:hover {
-  text-decoration: none;
-  color: red;
-}
