@@ -63,24 +63,26 @@ body {
   }
 }
 a {
-  color: #fff;
+  color: #212121;
 }
 a:hover {
   text-decoration: none;
-  color: #212121;
+  color: #fff;
 }
 .card {
   border: 2px solid #212121;
   border-radius: 8px;
   text-align: center;
-  background: #ff5400;
+  background: #008037;
   box-shadow: 10px 10px 10px grey;
   margin: 1em;
   padding: 1em;
+  color: #fff;
 }
 h2 {
   font-family: "Rowdies", cursive;
   text-align: center;
+  padding: 0.5em;
 }
 #store-info {
   text-align: left;
@@ -131,14 +133,20 @@ h2 {
   width: 100%;
   margin: 0 auto;
   padding: 0.5em;
-  color: #212121;
+  color: #fff;
   border-radius: 8px;
   border: 2px solid #212121;
   font-size: 20px;
+  box-shadow: 10px 10px 10px grey;
 }
-
+.contact {
+  text-align: center;
+}
 .fas {
   font-size: 20px;
+  padding: 0.5em;
+}
+.map {
   padding: 0.5em;
 }
 #map {
