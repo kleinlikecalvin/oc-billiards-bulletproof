@@ -59,12 +59,10 @@ a:hover {
 }
 #form-button {
   background: #ff5400 !important;
-  border: 1px solid #212121;
   box-shadow: 5px 5px 5px grey;
 }
 #form-button:hover {
   background: #008037 !important;
-  border: 1px solid #212121;
   box-shadow: 5px 5px 5px grey;
   transition: 0.3s;
 }
