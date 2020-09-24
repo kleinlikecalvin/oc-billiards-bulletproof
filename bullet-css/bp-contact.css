@@ -139,9 +139,6 @@ h3 {
   .hours {
     padding-top: 1em;
   }
-  #store-hours {
-    list-style: none;
-  }
   .map {
     text-align: center;
     margin: 0;
@@ -236,15 +233,14 @@ h3 {
   .info {
     padding: 3em;
   }
+  .info p {
+    line-height: 2em;
+  }
   .phone {
     padding-top: 1em;
   }
   .hours {
     padding-top: 1em;
-  }
-  #store-hours {
-    list-style: none;
-    line-height: 18px;
   }
   .map {
     text-align: center;
