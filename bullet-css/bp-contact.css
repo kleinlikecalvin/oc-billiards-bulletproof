@@ -229,7 +229,7 @@ h3 {
     font-size: 1.5em;
   }
   .info-container {
-    margin: 1em;
+    margin: 4em;
     margin-top: 3em;
     border: none;
   }
@@ -244,11 +244,11 @@ h3 {
   }
   #store-hours {
     list-style: none;
+    line-height: 18px;
   }
   .map {
     text-align: center;
-    margin: 0;
-    margin-bottom: 4em;
+    margin: 1em;
   }
   #map {
     height: 90%;
