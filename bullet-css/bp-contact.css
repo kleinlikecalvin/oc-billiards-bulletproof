@@ -37,7 +37,7 @@ h3 {
 .info-container {
   margin: 10em;
   margin-top: 0;
-  border: 4px double red;
+  border: 4px double #ff0000;
 }
 .info {
   padding: 3em;
@@ -46,20 +46,24 @@ h3 {
   line-height: 0.5em;
 }
 .map {
-  text-align: center;
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
 }
-#map {
-  height: 90%;
-  margin-top: 1.5em;
-  border-radius: 4px;
-  box-shadow: 10px 10px 10px grey;
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 .col a {
   color: red;
 }
 .col a:hover {
   text-decoration: none;
-  color: grey;
+  color: #808080;
 }
 #contact-form {
   padding: 3em;
@@ -67,7 +71,7 @@ h3 {
   margin-top: 3em;
   margin-bottom: 3em;
   border-radius: 2px;
-  border-top: 4px solid red;
+  border-top: 4px solid #ff0000;
   border-bottom: 4px solid red;
 }
 #contact-form h2 {
